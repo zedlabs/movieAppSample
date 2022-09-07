@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity(), ItemClick {
     private lateinit var binding: ActivityMainBinding
     private val viewModel: MainViewModel by viewModels()
 
-    val pagingAdapter = MediaListAdapter( this@MainActivity, MediaListAdapter.SearchItemComparator)
+    private val pagingAdapter = MediaListAdapter( this@MainActivity, MediaListAdapter.SearchItemComparator)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

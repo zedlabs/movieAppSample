@@ -1,8 +1,7 @@
-package com.example.movieapp.home
+package com.example.movieapp.repository
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.movieapp.repository.MediaRepository
 import com.example.movieapp.model.Search
 
 class MediaPagingSource(
